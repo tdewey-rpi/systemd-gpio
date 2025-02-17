@@ -1,0 +1,5 @@
+#!/usr/bin/make -f
+
+%:
+	pandoc README.rst -f rst -s -t man --output debian/systemd-gpio.1
+	dh $@

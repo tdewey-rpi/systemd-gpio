@@ -1,0 +1,3 @@
+systemd_gpio.py     /usr/bin
+systemd-gpio        /usr/bin
+gpio@.service       /usr/local/lib/systemd/system

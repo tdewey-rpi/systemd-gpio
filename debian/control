@@ -1,0 +1,13 @@
+Source: systmed-gpio
+Section: admin
+Priority: optional
+Maintainer: Tom Dewey <tom.dewey@raspberrypi.com>
+Build-Depends: debhelper (>= 13), pandoc
+Standards-Version: 1.0.2
+Homepage: https://www.raspberrypi.com/software
+
+Package: rpi-sb-provisioner
+Architecture: arm64
+Pre-Depends: dpkg (>= 1.16.1), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, python3, python3-gpiozero, python3-click
+Description: Automated provisioning of secure boot for Raspberry Pi Devices

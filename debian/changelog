@@ -1,0 +1,7 @@
+systemd-gpio (0.1.0) unstable; urgency=medium
+
+  * packaging: Package for debian
+  * packaging: Add manpage for systemd-gpio, generated from README
+  * packaging: Add simple wrapper for starting python runtime
+
+ -- Tom Dewey <tom.dewey@raspberrypi.com>  Mon, 17 Feb 2025 12:20:00 +0000
