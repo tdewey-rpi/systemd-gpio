@@ -2,3 +2,9 @@
 /dist
 __pycache__
 *.egg-info
+
+debian/.debhelper
+debian/systemd-gpio
+debian/systemd-gpio.1
+debian/debhelper-build-stamp
+debian/files
